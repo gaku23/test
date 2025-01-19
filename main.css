@@ -1,0 +1,245 @@
+.furniBlock{
+    width: 47%;
+}
+.furniture{
+    background-color: #F1FAFF;
+    margin-top: 12px;
+    height: 439px;
+    width: 930px;
+    margin-left: 100px;
+}
+.furniture__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.collections{
+    color: #7AC751;        
+    font-size: 22px;
+    font-weight: 400;
+}
+.furniture__title{
+    color: #2F2F2F;        
+    font-size: 40px;
+    font-weight: 500;
+    margin-top:6px;
+    margin-bottom:28px;
+}
+.furniture__sale{
+    color: #515151B5;        
+    font-size: 27px;
+    font-weight: 400;
+}
+.furniture-btn{
+    width: 129px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #7AC751;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 35px;
+}
+.seat{
+    margin-top: 40px;
+}
+.furniture__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    list-style: none;
+    height: 350px;
+    margin-top: 30px;
+}
+.furniture__list__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    width: 98px;
+    height: 91px;
+}
+.price{
+    color: #7AC751;
+    font-size: 14px;
+    font-weight: 500;
+}
+.list__info{
+    color: #555555;
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.advantages__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 100px;
+}
+.advantages__list__item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.advantages__list__wrapper{
+    margin-left: 10px;
+}
+.advantages__list__title{
+    color: #555555;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.advantages__price{
+    color:#515151B5;
+    opacity: 71%;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.furni__collections{
+    display: flex;
+    /* align-items: center; */
+    margin-top: 70px; 
+}
+.big__furni__collection{
+    background-image: url("img/Mask_Group.jpeg");
+    width: 669px;
+    height: 511px;
+    padding: 49px 0 0 31px;
+    margin-right: 120px;
+}
+.furni__title{
+    font-weight: 700;
+    font-size: 22px;
+    color: #555555;
+    margin-bottom: 10px;
+}
+.furni__collection__price__info{
+    font-weight: 600;
+    font-size: 20px;
+    color: #7AC751;
+    margin-bottom: 10px;
+}
+.more__group{
+    display: flex;
+}
+.more__info{
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+    margin-right: 6px;
+    text-decoration: none;
+}
+.mini__furni__collection{
+    display:flex; 
+    padding-left: 22px;  
+}
+.mini__furni__collection__sec{
+    background-image: url("img/Rectangle 33.jpeg");
+    width: 483px;
+    height: 247px;   
+    padding: 37px 0 0 22px;
+}
+
+.trends__tabs{
+    margin-top: 120px;
+}
+.trends__title{
+    font-size: 36px;
+    font-weight: 500;
+    color: #555555;
+    text-align: center;
+    margin-bottom:60px;
+}
+.trends__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+    margin-bottom: 100px;
+}
+.trends__list__item a{
+    color: #555555;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 1s;
+}
+.trends__list__item a:hover{
+    color: #7AC751;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: 1s;
+}
+
+.trending__list{
+    list-style: none;
+    display: block;
+    
+}
+.trending__list__item{
+    width: 270px;
+    height: 387px;
+}
+.state__div{
+    width: 45px;
+    height: 21px;
+    background-color: #7AC751;
+    border-radius: 0 0 5px 0;
+    color: #FFFFFF;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    position: absolute;
+}
+.type{
+    font-size:14px;
+    font-weight: 200;
+    color: #757575B5;
+    margin-top: 15px;
+}
+.description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #555555;
+    margin-top: 6px;
+}
+.prices{
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    width: 110px;
+    margin-top: 6px;
+}
+.salePrice{
+    color: #7AC751;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 10px 0 0;
+}
+.cardPrice{
+    color: #CCCCCC;
+    font-weight: 400;
+    font-size: 18px;
+}
+.card__line{
+    width: 35px;
+    color: #CCCCCC;
+}
+
+.trending__list{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 45px;
+    align-items: center;
+    justify-content: space-between;
+}
