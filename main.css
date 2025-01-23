@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 .furniBlock{
     width: 47%;
 }
@@ -7,6 +8,49 @@
     height: 439px;
     width: 930px;
     margin-left: 100px;
+}
+.swiper-button-next::after{
+    display: none !important;
+}
+.swiper{
+    overflow: hidden;
+    width: 374px;
+    height: 374px;
+    position: relative;
+}
+.swiper-wrapper{
+    display: flex;
+}
+.skip__btn{
+    border: none;
+    cursor: pointer;
+    background: none;
+    width: 30px;
+    transform: rotate(270deg);
+}
+.slider__HUD{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top:25px;
+    position: static !important;
+    width: 150px;
+}
+.swiper-pagination-bullet{
+    background-color: #7AC751 !important;
+    opacity: 29% !important;
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 100% !important;
+    margin-left: 15px !important;
+}
+.swiper-pagination-bullet-active{
+    height: 10px !important;
+    width: 24px !important;
+    border-radius: 10px !important;
+    background-color: #7AC751 !important;
+    transition: 0.5s;
+    opacity: 100% !important;
 }
 .furniture__info{
     display: flex;
@@ -221,12 +265,14 @@
     margin-top: 6px;
 }
 .salePrice{
+    font-family: "Mulish", serif;
     color: #7AC751;
     font-size: 18px;
     font-weight: 500;
     margin: 0 10px 0 0;
 }
 .cardPrice{
+    font-family: "Mulish", serif;
     color: #CCCCCC;
     font-weight: 400;
     font-size: 18px;
@@ -242,4 +288,94 @@
     row-gap: 45px;
     align-items: center;
     justify-content: space-between;
+}
+
+.special__offers{
+    margin-top: 93px;
+    margin-bottom: 126px;
+}
+.SP__title{
+    font-family: "Mulish", serif;
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    color: #555555;
+    margin-bottom: 60px;
+}
+.offers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.first__offer{
+    background-image: url("img/Rectangle_43.Jpeg");
+    width: 560px;
+    height: 249px;
+    padding: 28px 0 0 24px;
+}
+.offer__info__title{
+    font-family: "Mulish", serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #555555;
+}
+.offer__info-paragraph{
+    font-family: "Mulish", serif;
+    font-size: 12px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 11px;   
+}
+.offer__by{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 213px;
+    margin-top: 20px;
+}
+.by__btn{
+    font-family: "Mulish", serif;
+    width: 91px;
+    height: 26px;
+    background-color: #7AC751; 
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+.time__list{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 214px;   
+    list-style: none;
+    color: #FFFFFF;
+}
+.time__list__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #7AC751;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top: 35px;
+}
+.time__num{
+    font-size: 14px;
+    font-weight: 500;
+}
+.time__str{
+    font-size: 6px;
+    font-weight: 400;
+}
+.second__offer{
+    background-image: url("img/Rectangle_44.jpeg");
+    width: 560px;
+    height: 249px;
+    padding: 28px 0 0 24px;
+    
 }
