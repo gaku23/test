@@ -6,8 +6,9 @@
     background-color: #F1FAFF;
     margin-top: 12px;
     height: 439px;
-    width: 930px;
+    width: 1000px;
     margin-left: 100px;
+    padding: 0 35px 0 35px;
 }
 .swiper-button-next::after{
     display: none !important;
@@ -376,6 +377,5 @@
     background-image: url("img/Rectangle_44.jpeg");
     width: 560px;
     height: 249px;
-    padding: 28px 0 0 24px;
-    
+    padding: 28px 0 0 24px; 
 }
